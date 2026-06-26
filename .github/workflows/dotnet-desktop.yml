@@ -7,54 +7,55 @@ on:
     branches: [ main, master ]
 
 jobs:
-  build:
-    # WPF requires a Windows runner — Linux/macOS cannot build WPF applications.
+  build-and-test:
     runs-on: windows-latest
 
     steps:
-      # ── 1. Checkout ──────────────────────────────────────────────────────────
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # ── 2. .NET SDK ──────────────────────────────────────────────────────────
       - name: Setup .NET 10
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '10.0.x'
 
-      # ── 3. Restore NuGet packages (whole solution: app + test project) ────────
-      - name: Restore dependencies
-        run: dotnet restore Cybrog.sln
+      - name: Cache NuGet packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget-
 
-      # ── 4. Build (Release) ────────────────────────────────────────────────────
-      - name: Build
+      - name: Restore dependencies
+        run: dotnet restore Cybrog.sln --locked-mode
+
+      - name: Build solution (Release)
         run: dotnet build Cybrog.sln --configuration Release --no-restore
 
-      # ── 5. Run unit tests ──────────────────────────────────────────────────────
-      - name: Run tests
+      - name: Run tests with coverage
         run: >
           dotnet test Cybrog.Tests/Cybrog.Tests.csproj
           --configuration Release
           --no-build
-          --verbosity detailed
-          --logger "console;verbosity=detailed"
+          --collect:"XPlat Code Coverage"
+          --settings coverlet.runsettings
           --logger "trx;logfilename=test-results.trx"
-          --diag ./logs/diagnostics.log
+          --parallel
+          --blame-hang-timeout 2min
         continue-on-error: false
 
-      # ── 5b. Upload test results for debugging
-      - name: Upload test results
+      - name: Upload test results (TRX)
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: Test-Results
           path: |
-            test-results.trx
-            logs/diagnostics.log
+            **/TestResults/*.trx
+            **/TestResults/*/coverage.cobertura.xml
           retention-days: 7
 
-      # ── 6. Publish self-contained Windows executable ──────────────────────────
-      - name: Publish
+      - name: Publish self-contained executable
         run: >
           dotnet publish Cybrog/Cybrog.csproj
           --configuration Release
@@ -63,11 +64,9 @@ jobs:
           --output ./publish
           --no-restore
 
-      # ── 7. Upload artifact ────────────────────────────────────────────────────
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
           name: Cybrog-Release
           path: ./publish
           retention-days: 30
-          
