@@ -32,7 +32,26 @@ jobs:
 
       # ── 5. Run unit tests ──────────────────────────────────────────────────────
       - name: Run tests
-        run: dotnet test Cybrog.Tests/Cybrog.Tests.csproj --configuration Release --no-build --verbosity normal
+        run: >
+          dotnet test Cybrog.Tests/Cybrog.Tests.csproj
+          --configuration Release
+          --no-build
+          --verbosity detailed
+          --logger "console;verbosity=detailed"
+          --logger "trx;logfilename=test-results.trx"
+          --diag ./logs/diagnostics.log
+        continue-on-error: false
+
+      # ── 5b. Upload test results for debugging
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Test-Results
+          path: |
+            test-results.trx
+            logs/diagnostics.log
+          retention-days: 7
 
       # ── 6. Publish self-contained Windows executable ──────────────────────────
       - name: Publish
@@ -51,3 +70,4 @@ jobs:
           name: Cybrog-Release
           path: ./publish
           retention-days: 30
+          
