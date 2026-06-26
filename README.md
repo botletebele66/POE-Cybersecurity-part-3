@@ -143,4 +143,5 @@ the test project also targets `net10.0-windows` to reference the WPF main projec
 
 ## 7. Author
 
-Botshelo Letebele Rosebank Internatinal College, 2nd-year Software Development, Part 3 POE submission.
+Botshelo Letebele = IIE Rosebank Internatinal College(2025-202
+7), 2nd-year Software Development, Part 3 POE submission.
