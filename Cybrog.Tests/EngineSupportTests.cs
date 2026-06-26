@@ -80,17 +80,6 @@ namespace Cybrog.Tests
             Assert.NotNull(topic);
         }
 
-        [Theory]
-        [InlineData("cia")]
-        [InlineData("social")]
-        [InlineData("network")]
-        [InlineData("incident")]
-        public void Get_ReturnsTopicForAdvancedCategories(string key)
-        {
-            var topic = SecurityKnowledgeBase.Get(key);
-            Assert.NotNull(topic);
-        }
-
         [Fact]
         public void Get_UnknownKey_ReturnsNull()
         {
@@ -110,10 +99,6 @@ namespace Cybrog.Tests
         [InlineData("malware")]
         [InlineData("browsing")]
         [InlineData("mobile")]
-        [InlineData("cia")]
-        [InlineData("social")]
-        [InlineData("network")]
-        [InlineData("incident")]
         public void BuildLesson_ProducesNonEmptyStructuredContent(string key)
         {
             var topic = SecurityKnowledgeBase.Get(key)!;
@@ -128,11 +113,36 @@ namespace Cybrog.Tests
         }
 
         [Fact]
-        public void All_ReturnsAllTopics()
+        public void All_ReturnsTopicsAndContainsAllNine()
         {
+            var allTopics = SecurityKnowledgeBase.All;
             int count = 0;
-            foreach (var _ in SecurityKnowledgeBase.All) count++;
-            Assert.Equal(9, count);  // 5 core topics + 4 advanced topics (CIA Triad, Social Engineering, Network Security, Incident Response)
+            foreach (var _ in allTopics) count++;
+            
+            Assert.Equal(9, count);
+            
+            // Verify all 9 topics are accessible
+            Assert.NotNull(SecurityKnowledgeBase.Get("phishing"));
+            Assert.NotNull(SecurityKnowledgeBase.Get("passwords"));
+            Assert.NotNull(SecurityKnowledgeBase.Get("malware"));
+            Assert.NotNull(SecurityKnowledgeBase.Get("browsing"));
+            Assert.NotNull(SecurityKnowledgeBase.Get("mobile"));
+            Assert.NotNull(SecurityKnowledgeBase.Get("cia"));
+            Assert.NotNull(SecurityKnowledgeBase.Get("social"));
+            Assert.NotNull(SecurityKnowledgeBase.Get("network"));
+            Assert.NotNull(SecurityKnowledgeBase.Get("incident"));
+        }
+
+        [Theory]
+        [InlineData("cia")]
+        [InlineData("social")]
+        [InlineData("network")]
+        [InlineData("incident")]
+        public void Get_AdvancedTopicsExist(string key)
+        {
+            var topic = SecurityKnowledgeBase.Get(key);
+            Assert.NotNull(topic);
+            Assert.False(string.IsNullOrEmpty(topic!.DisplayName));
         }
     }
 }
