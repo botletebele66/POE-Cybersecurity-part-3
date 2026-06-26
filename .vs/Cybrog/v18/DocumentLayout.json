@@ -1,0 +1,350 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|c:\\users\\botsh\\onedrive\\documents\\school wr\\cybrog\\cybrog\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|solutionrelative:cybrog\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|c:\\users\\botsh\\onedrive\\documents\\school wr\\cybrog\\cybrog\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|solutionrelative:cybrog\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|c:\\users\\botsh\\onedrive\\documents\\school wr\\cybrog\\cybrog\\converters\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|solutionrelative:cybrog\\converters\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|c:\\users\\botsh\\onedrive\\documents\\school wr\\cybrog\\cybrog\\models\\securitytopic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|solutionrelative:cybrog\\models\\securitytopic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|c:\\users\\botsh\\onedrive\\documents\\school wr\\cybrog\\cybrog\\engine\\nlpintentparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|solutionrelative:cybrog\\engine\\nlpintentparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|c:\\users\\botsh\\onedrive\\documents\\school wr\\cybrog\\cybrog\\engine\\quizengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|solutionrelative:cybrog\\engine\\quizengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|c:\\users\\botsh\\onedrive\\documents\\school wr\\cybrog\\cybrog\\engine\\securityknowledgebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|solutionrelative:cybrog\\engine\\securityknowledgebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|c:\\users\\botsh\\onedrive\\documents\\school wr\\cybrog\\cybrog\\engine\\idatabasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|solutionrelative:cybrog\\engine\\idatabasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|c:\\users\\botsh\\onedrive\\documents\\school wr\\cybrog\\cybrog\\models\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|solutionrelative:cybrog\\models\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|c:\\users\\botsh\\onedrive\\documents\\school wr\\cybrog\\cybrog\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|solutionrelative:cybrog\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|c:\\users\\botsh\\onedrive\\documents\\school wr\\cybrog\\cybrog\\models\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|solutionrelative:cybrog\\models\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|c:\\users\\botsh\\onedrive\\documents\\school wr\\cybrog\\cybrog\\engine\\keywordtopicmatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|solutionrelative:cybrog\\engine\\keywordtopicmatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|c:\\users\\botsh\\onedrive\\documents\\school wr\\cybrog\\cybrog\\engine\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|solutionrelative:cybrog\\engine\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|c:\\users\\botsh\\onedrive\\documents\\school wr\\cybrog\\cybrog\\engine\\conversationengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|solutionrelative:cybrog\\engine\\conversationengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|c:\\users\\botsh\\onedrive\\documents\\school wr\\cybrog\\cybrog\\engine\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|solutionrelative:cybrog\\engine\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|c:\\users\\botsh\\onedrive\\documents\\school wr\\cybrog\\cybrog\\engine\\sentimentanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|solutionrelative:cybrog\\engine\\sentimentanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|c:\\users\\botsh\\onedrive\\documents\\school wr\\cybrog\\cybrog\\engine\\responselibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D}|Cybrog\\Cybrog.csproj|solutionrelative:cybrog\\engine\\responselibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Cybrog\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Cybrog\\MainWindow.xaml.cs",
+              "ViewState": "AgIAALwBAAAAAAAAAAAAwOgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T01:28:26.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IDatabaseManager.cs",
+              "DocumentMoniker": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\IDatabaseManager.cs",
+              "RelativeDocumentMoniker": "Cybrog\\Engine\\IDatabaseManager.cs",
+              "ToolTip": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\IDatabaseManager.cs",
+              "RelativeToolTip": "Cybrog\\Engine\\IDatabaseManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:34:55.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Cybrog\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\MainWindow.xaml",
+              "RelativeToolTip": "Cybrog\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-25T12:55:33.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Converters.cs",
+              "DocumentMoniker": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Converters\\Converters.cs",
+              "RelativeDocumentMoniker": "Cybrog\\Converters\\Converters.cs",
+              "ToolTip": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Converters\\Converters.cs",
+              "RelativeToolTip": "Cybrog\\Converters\\Converters.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAgwMkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T18:35:07.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SecurityKnowledgeBase.cs",
+              "DocumentMoniker": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\SecurityKnowledgeBase.cs",
+              "RelativeDocumentMoniker": "Cybrog\\Engine\\SecurityKnowledgeBase.cs",
+              "ToolTip": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\SecurityKnowledgeBase.cs",
+              "RelativeToolTip": "Cybrog\\Engine\\SecurityKnowledgeBase.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAQwJYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:18:27.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NlpIntentParser.cs",
+              "DocumentMoniker": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\NlpIntentParser.cs",
+              "RelativeDocumentMoniker": "Cybrog\\Engine\\NlpIntentParser.cs",
+              "ToolTip": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\NlpIntentParser.cs",
+              "RelativeToolTip": "Cybrog\\Engine\\NlpIntentParser.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAqwKgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:26:39.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SecurityTopic.cs",
+              "DocumentMoniker": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Models\\SecurityTopic.cs",
+              "RelativeDocumentMoniker": "Cybrog\\Models\\SecurityTopic.cs",
+              "ToolTip": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Models\\SecurityTopic.cs",
+              "RelativeToolTip": "Cybrog\\Models\\SecurityTopic.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAewFkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:43:58.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuizEngine.cs",
+              "DocumentMoniker": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\QuizEngine.cs",
+              "RelativeDocumentMoniker": "Cybrog\\Engine\\QuizEngine.cs",
+              "ToolTip": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\QuizEngine.cs",
+              "RelativeToolTip": "Cybrog\\Engine\\QuizEngine.cs",
+              "ViewState": "AgIAAF0BAAAAAAAAAAAAAG0BAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:35:08.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Models\\UserSession.cs",
+              "RelativeDocumentMoniker": "Cybrog\\Models\\UserSession.cs",
+              "ToolTip": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Models\\UserSession.cs",
+              "RelativeToolTip": "Cybrog\\Models\\UserSession.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:48:22.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "Cybrog\\Models\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Models\\TaskItem.cs",
+              "RelativeToolTip": "Cybrog\\Models\\TaskItem.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAswN8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:46:55.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QuizQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Models\\QuizQuestion.cs",
+              "RelativeDocumentMoniker": "Cybrog\\Models\\QuizQuestion.cs",
+              "ToolTip": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Models\\QuizQuestion.cs",
+              "RelativeToolTip": "Cybrog\\Models\\QuizQuestion.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAwFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:45:41.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DatabaseManager.cs",
+              "DocumentMoniker": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\DatabaseManager.cs",
+              "RelativeDocumentMoniker": "Cybrog\\Engine\\DatabaseManager.cs",
+              "ToolTip": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\DatabaseManager.cs",
+              "RelativeToolTip": "Cybrog\\Engine\\DatabaseManager.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:34:37.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConversationEngine.cs",
+              "DocumentMoniker": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\ConversationEngine.cs",
+              "RelativeDocumentMoniker": "Cybrog\\Engine\\ConversationEngine.cs",
+              "ToolTip": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\ConversationEngine.cs",
+              "RelativeToolTip": "Cybrog\\Engine\\ConversationEngine.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAOYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:29:42.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KeywordTopicMatcher.cs",
+              "DocumentMoniker": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\KeywordTopicMatcher.cs",
+              "RelativeDocumentMoniker": "Cybrog\\Engine\\KeywordTopicMatcher.cs",
+              "ToolTip": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\KeywordTopicMatcher.cs",
+              "RelativeToolTip": "Cybrog\\Engine\\KeywordTopicMatcher.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwHAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:26:47.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\TaskService.cs",
+              "RelativeDocumentMoniker": "Cybrog\\Engine\\TaskService.cs",
+              "ToolTip": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\TaskService.cs",
+              "RelativeToolTip": "Cybrog\\Engine\\TaskService.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:26:30.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SentimentAnalyzer.cs",
+              "DocumentMoniker": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\SentimentAnalyzer.cs",
+              "RelativeDocumentMoniker": "Cybrog\\Engine\\SentimentAnalyzer.cs",
+              "ToolTip": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\SentimentAnalyzer.cs",
+              "RelativeToolTip": "Cybrog\\Engine\\SentimentAnalyzer.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAAAL8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:23:31.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ResponseLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\ResponseLibrary.cs",
+              "RelativeDocumentMoniker": "Cybrog\\Engine\\ResponseLibrary.cs",
+              "ToolTip": "C:\\Users\\botsh\\OneDrive\\Documents\\school wr\\Cybrog\\Cybrog\\Engine\\ResponseLibrary.cs",
+              "RelativeToolTip": "Cybrog\\Engine\\ResponseLibrary.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAwwG0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T00:15:54.35Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
