@@ -80,6 +80,17 @@ namespace Cybrog.Tests
             Assert.NotNull(topic);
         }
 
+        [Theory]
+        [InlineData("cia")]
+        [InlineData("social")]
+        [InlineData("network")]
+        [InlineData("incident")]
+        public void Get_ReturnsTopicForAdvancedCategories(string key)
+        {
+            var topic = SecurityKnowledgeBase.Get(key);
+            Assert.NotNull(topic);
+        }
+
         [Fact]
         public void Get_UnknownKey_ReturnsNull()
         {
@@ -99,6 +110,10 @@ namespace Cybrog.Tests
         [InlineData("malware")]
         [InlineData("browsing")]
         [InlineData("mobile")]
+        [InlineData("cia")]
+        [InlineData("social")]
+        [InlineData("network")]
+        [InlineData("incident")]
         public void BuildLesson_ProducesNonEmptyStructuredContent(string key)
         {
             var topic = SecurityKnowledgeBase.Get(key)!;
@@ -113,11 +128,11 @@ namespace Cybrog.Tests
         }
 
         [Fact]
-        public void All_ReturnsExactlyFiveTopics()
+        public void All_ReturnsAllTopics()
         {
             int count = 0;
             foreach (var _ in SecurityKnowledgeBase.All) count++;
-            Assert.Equal(5, count);
+            Assert.Equal(9, count);  // 5 core topics + 4 advanced topics (CIA Triad, Social Engineering, Network Security, Incident Response)
         }
     }
 }
